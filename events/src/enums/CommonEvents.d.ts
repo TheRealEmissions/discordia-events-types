@@ -36,6 +36,7 @@ export declare enum DiscordEvents {
     GUILD_UNAVAILABLE = "guildUnavailable",
     GUILD_UPDATE = "guildUpdate",
     INTERACTION_CREATE = "interactionCreate",
+    INVALIDATED = "invalidated",
     INVITE_CREATE = "inviteCreate",
     INVITE_DELETE = "inviteDelete",
     MESSAGE_CREATE = "messageCreate",
