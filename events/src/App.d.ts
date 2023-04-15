@@ -5,7 +5,7 @@ declare class App extends BaseApp {
     loadedEvents: any[];
     events: any[];
     constructor();
-    init(): void;
-    bind(eventName: GeneralEvents | DiscordEvents | string, type?: EventTypes): (target: any, propertyKey: string, descriptor: PropertyDescriptor) => void;
+    init(): Promise<void>;
+    bind<T extends string>(eventName: GeneralEvents | DiscordEvents | T, type?: EventTypes): (target: any, propertyKey: string, descriptor: PropertyDescriptor) => void;
 }
 export default App;
