@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import Base from "ts-modular-bot-file-design";
+import Base from "ada-file-design";
 import { Dependency } from "ada-types";
 import { GeneralEvents, DiscordEvents } from "./enums/CommonEvents.js";
 import { EventEmitter } from "node:events";
